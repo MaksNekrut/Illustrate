@@ -1,0 +1,58 @@
+$header-color-dark: #353c3e
+$header-color-light: #40494c
+$logo-color: #f26c4f
+$body-text: #777777
+$backgroundMain: #dcdcdc
+
+
+html
+    box-sizing: border-box
+
+*,
+::before,
+::arter
+    box-sizing: inherit    
+
+body
+    background-color: $backgroundMain
+    font-family: 'Montserrat Alternates', sans-serif
+
+.container
+    max-width: 960px
+    margin: 0 auto
+
+.wrap > * + * 
+    padding-left: 1.5em
+
+.wrap
+    display: flex
+    background-color: $header-color-dark
+    margin: 0
+    padding: 0
+    .logo
+        margin-top: 1em
+        margin-left: 1em
+        width: 37px
+        height: 43px
+        background-color: $logo-color
+        img
+            margin: 0 auto
+            padding: 10px 3px 0 6px
+    .description
+        margin-left: auto
+        padding-right: 2em
+        padding-top: 1em
+        color: grey
+
+
+
+.nav
+    background-color: $header-color-light
+    .nav-list
+        display: flex
+        list-style-type: none
+        margin-top: 0
+
+
+.nav-list > li + li
+    padding-left: 1em
