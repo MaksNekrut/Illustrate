@@ -150,4 +150,22 @@ hr {
         .wrapper .slide2 .back .front span {
           color: #f26c4f; }
 
+.container .info-title {
+  text-align: center; }
+
+.recent-work {
+  display: flex; }
+  .recent-work .me-so-hungry, .recent-work .art-again, .recent-work .whatever, .recent-work .recent-work-title {
+    margin: 0.5rem 1rem;
+    flex: 1; }
+  .recent-work img {
+    width: 100%; }
+
+.blog {
+  display: flex; }
+  .blog .blog-title, .blog .first, .blog .second, .blog .third {
+    margin: 0.5rem 1rem; }
+  .blog img {
+    width: 100%; }
+
 /*# sourceMappingURL=style.css.map */
